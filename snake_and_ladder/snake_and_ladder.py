@@ -6,6 +6,7 @@ def move_to(p,ps,x):
     p.speed(5)
     while ps != x:
         p.goto(get_xy(ps+1))
+        #Hello Bhanu Vermaaaaa!
         ps += 1
         time.sleep(0.4)
       
