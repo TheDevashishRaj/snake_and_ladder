@@ -1,12 +1,12 @@
 from snake_ladder_template import *
 
 #for beautifying the movement of turtle:--
-def move_to(p,pos,x):
+def move_to(p,ps,x):
     '''this part of code makes turtle to move one by one step'''
     p.speed(5)
-    while pos != x:
-        p.goto(get_xy(pos+1))
-        pos += 1
+    while ps != x:
+        p.goto(get_xy(ps+1))
+        ps += 1
         time.sleep(0.4)
       
 
